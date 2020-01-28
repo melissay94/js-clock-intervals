@@ -1,14 +1,42 @@
+
 #clock {
+    margin-top: 50px;
+    margin-left: 35%;
+    position: relative;
 }
 
 #clock img {
+    position: absolute;
 }
 
 #hour {
+    position: absolute;
 }
 
 #minute {
+    position: absolute;
 }
 
 #second {
+    position: absolute;
 }
+
+.btn-controls {
+    position: relative;
+    margin-left: 10%;
+}
+
+button {
+    display: block;
+    margin: 10px 0px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+#random-clock {
+    background-image: linear-gradient(to right, blue, purple, yellow, green, pink);
+    color: white;
+}
+
+
+
